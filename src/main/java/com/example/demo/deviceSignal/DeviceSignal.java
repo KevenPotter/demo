@@ -3,11 +3,11 @@ package com.example.demo.deviceSignal;
 public class DeviceSignal {
     public static void main(String[] args) {
         // 声明[设备编号]
-        String deviceIds = "113";
+        String deviceIds = "1096";
         // 声明[最终设备编号]-此设备编号用来拼接最终的命令
         StringBuffer finalDeviceId = new StringBuffer();
         // 声明信号[版本]-"+"后面的为版本编号,可以为1,2,3,4,8......
-        String version = "76653" + 2;
+        String version = "76653" + 4;
         // 声明设备[端口号],该设备端口号采用了字符串数组写死
         String[] portNum = {"30", "31", "32", "33", "34", "35", "36", "37"};
         // 声明设备[端口状态],具体状态值需要查询#DevicePortStatusConstant枚举类
